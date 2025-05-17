@@ -14,6 +14,7 @@ annotations/
 images/
 runs/
 yolo_dataset/
+cnn_dataset/
 dataset/
 uv.lock
 yolov*.pt

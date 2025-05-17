@@ -10,7 +10,7 @@ batch=4
 patience=10
 ```
 
-Learning stopped at ~45 epochs \
+Learning stopped at 47 epochs \
 mAP@50-95: 0.554 \
 mAP@50: 0.630 \
 mAP@75: 0.617
