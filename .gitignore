@@ -19,3 +19,4 @@ uv.lock
 yolov*.pt
 pyvenv.cfg
 *.pt
+!models/*.pt

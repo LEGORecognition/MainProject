@@ -1,6 +1,6 @@
 # Lego Pieces Recognition Model
 
-This repository contains Lego pieces recognition model trained on pretrained YOLO v11.
+This repository contains Lego pieces recognition model trained on pretrained YOLO model.
 
 Yolo v11: [https://docs.ultralytics.com/models/yolo11/](https://docs.ultralytics.com/models/yolo11/)
 Dataset: [https://www.kaggle.com/datasets/ronanpickell/b100-lego-detection-dataset](https://www.kaggle.com/datasets/ronanpickell/b100-lego-detection-dataset)
