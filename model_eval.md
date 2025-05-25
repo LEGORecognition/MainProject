@@ -64,6 +64,8 @@ Overall Accuracy: 0.495
 
 ![per group conffusion matrix](./models/img/color_cnn_a1_stats.png)
 
+> Remember that blue, green and brown superclasses are the broadest hence their high absolute values on the matrix. Remember to think about each class in percentages, not absolute values!
+
 ### Attempt 2
 
 _Cleaned up data (found some wrong annotated photos). Modified the FC (raised Layer outputs to 512. added Batch Normalization and Dropout)._
@@ -75,4 +77,8 @@ model.fc = nn.Sequential(
     nn.ReLU(inplace=True),
     nn.Dropout(0.5),
     nn.Linear(256, len(color_classes)))
+```
+
+```
+TBD
 ```
